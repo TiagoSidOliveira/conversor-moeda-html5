@@ -1,4 +1,17 @@
 {
+<<<<<<< HEAD
   "welcomeFile": "/index.html",
   "authenticationMethod": "none"
+=======
+  "welcomeFile": "index.html",
+  "routes": [
+	{
+		"path": "api",
+		"target": {
+			"type": "destination",
+			"name": "ExchangeRates"
+		}
+	}
+  ]
+>>>>>>> destination
 }
