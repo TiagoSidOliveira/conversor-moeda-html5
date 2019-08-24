@@ -8,7 +8,7 @@ ovly.conversor = {
 		var oParametros = {
 			base: $("#moeda_origem").val()
 		};
-		$.get(endpoint, oParametros, callback );
+		$.get(endpoint, oParametros, this.callback );
 	},
 	callback: function(resultado){
 		// console.log(resultado);
